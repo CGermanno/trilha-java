@@ -13,7 +13,7 @@ public class ContaTerminal {
 
         // Solicitando dados
         System.out.print("Informe o numero: ");
-        int numero = scanner.nextInt(); // 'numero' é uma String
+        int numero = scanner.nextInt(); 
         scanner.nextLine();
 
         System.out.print("Informe a agencia: ");
@@ -23,13 +23,13 @@ public class ContaTerminal {
         String nomeCompleto = scanner.nextLine();
 
         System.out.print("Informe o valor do deposito: ");
-        float saldo = scanner.nextFloat(); // 'saldo' é um float
+        float saldo = scanner.nextFloat();
 
         // Exibindo os dados
-        System.out.printf("O número é: %s%n", numero); // Para String
-        System.out.printf("A agência é: %s%n", agencia); // Para String
-        System.out.printf("Nome completo: %s%n", nomeCompleto); // Para String
-        System.out.printf("O saldo disponível é de: %.2f%n", saldo); // Para float com 2 casas decimais
+        System.out.printf("O número é: %s%n", numero); 
+        System.out.printf("A agência é: %s%n", agencia); 
+        System.out.printf("Nome completo: %s%n", nomeCompleto); 
+        System.out.printf("O saldo disponível é de: %.2f%n", saldo); 
 
 
 
