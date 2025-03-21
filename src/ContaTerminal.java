@@ -12,7 +12,7 @@ public class ContaTerminal {
         Scanner scanner = new Scanner(System.in);
 
         while (Character.toLowerCase(sair) != 's') {
-            System.out.println("\nOlá Germano! Vamos para a criação da conta!\n");
+            System.out.println("\nOlá! Vamos para a criação da conta!\n");
 
             // Solicitando dados
             System.out.print("Informe o número da conta: ");
@@ -30,10 +30,10 @@ public class ContaTerminal {
             scanner.nextLine(); // Consumir quebra de linha deixada pelo nextFloat()
 
             // Exibindo os dados
+            System.out.printf("Titular: %s%n", nomeCompleto);
             System.out.printf("\nConta criada com sucesso!\n");
             System.out.printf("Número da conta: %d%n", numero);
             System.out.printf("Agência: %s%n", agencia);
-            System.out.printf("Titular: %s%n", nomeCompleto);
             System.out.printf("Saldo disponível: R$ %.2f%n", saldo);
 
             // Confirmação do usuário
